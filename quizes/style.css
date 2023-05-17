@@ -1,1 +1,139 @@
-
+.title{
+    text-align: center;
+    font-style: italic;
+    color: chocolate;
+    border: solid;
+    padding: 10px;
+    border-radius: 12px;
+}
+.option {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    border-radius:5px;
+    background-image:radial-gradient(at top ,skyblue,lightgreen,skyblue,lightgreen);
+    margin-bottom:10px;
+    }
+    .option h1{
+    font-style:italic;
+    font-weight:900;
+    color:bisque;
+    text-shadow:5px 5px 5px  black;
+    }
+    .option a {
+    text-decoration:none;
+    font-size:1.2em;
+    padding:5px;
+    margin:5px;
+    border:inset;
+    border-radius:5px;
+    background:yellowgreen;
+    width:50%;
+    text-align:center;
+    color:white;
+    }
+    .option a:hover {
+    
+    
+    
+    
+    
+    
+    background:#5a32df;
+    
+    
+    color:white;
+    }
+    .members  {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    border-radius:5px;
+    background:#2ca12f;
+    margin-bottom:10px;
+    }
+    .members table {
+    background:#b3a12f;
+    width:100%;
+    border-collapse:collapse;
+    border:solid;
+    }
+    .members table th,.members table td{
+    border: solid blue;
+    color:#6d3a5f;
+    padding:5px;
+    
+    
+    }
+    .name {
+    text-align:left;
+    text-transform:capitalize;
+    }
+    .id {
+    text-align:right;
+    text-transform:uppercase;
+    }
+    hr {
+    width:50%;
+    }
+    
+    
+    
+    .header{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid gray ;
+    border-radius:12px 12px 0 0;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+}
+#qtn{
+    background:skyblue;
+    padding:12px;
+    }
+    .options {
+    background:lightgreen;
+    padding:10px;
+    border-radius:0 0 12px 12px;
+    cursor: pointer;
+    }
+    .options div{
+    padding:10px;
+    margin:10px;
+    background:gray;
+    border-radius:10px;
+    }
+    .options div:hover{
+    background:rgb(17, 154, 233);
+    }
+    #final{
+        padding: 1.2em;
+        border-radius: 12px;
+        background-color: skyblue;
+        text-align: center;
+        display: none;
+    }
+    #message{
+        padding: 1.2em;
+        border-radius: 12px;
+        background-color: skyblue;
+        text-align: center;
+        font-size: 2em;
+        
+        display: none;
+    }
+    .btn{
+        padding: 1.3em;
+        background-color: green;
+        color: white;
+        border-radius: 12px;
+        cursor: pointer;
+        margin: auto;
+    }
