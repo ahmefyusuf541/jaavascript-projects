@@ -1,1 +1,47 @@
+.btn {
+    margin:10px;
+    padding:10px;
+    font-size:2em;
+    background:#afd162;
+    border-radius:12px;
+    cursor: pointer;
+    }
+    .btn:hover{
+        background-color: antiquewhite;
+        transform: scale(1.1);
+    }
+    h1{
+        text-align: center;
+    }
+    i.fa{
+    margin-right:1em;
+    }
+    #choices{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        border: #a7b849 solid;
+        border-radius: 20px;
+    }
+    .yourChoice,.computerChoice{
+        width: 50%;
+        padding:10px;
+    }
+    #yourChoice , #computerChoice {
+    text-align: center;
+    background:#dbff12;
+    border-radius:12px;
+    padding:10px;
+    margin:auto;
+    font-size:3em;
+    }
 
+    #result {
+    background:rgb(143, 143, 47);
+    border-radius:12px;
+    padding:10px;
+    margin:10px;
+    font-size:3em;
+    text-align:center;
+    }
