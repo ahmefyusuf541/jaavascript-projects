@@ -1,5 +1,3 @@
-
-
 // Get the input field
 var input = document.getElementById("input");
 
