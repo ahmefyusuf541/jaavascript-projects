@@ -1,1 +1,69 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        const quizes = [
+        ["What does HTML stand for?",
+        "Hypertext Making Language",
+        "Hyper Transfer Markup Language",
+        "Hypertext Markup Language",
+        "Hyper Transfer Making Language",
+        "Hypertext Markup Language"
+    ],
+        ["HTML Language uses ",
+        "Tabs",
+        "Tags",
+        "Punctuation",
+        "Quotations",
+        "Tags"
+    ],
+        ["A &lt;tag&gt;",
+        "Is used to divide sections",
+        "Is not needed in HTML",
+        "Tells the browser how to format our content",
+        "Is part of the title line in HTML",
+        "Tells the browser how to format our content"
+    ],
+        ["How is document type initialized in HTML5.?",
+        "&lt;/DOCTYPE HTML>",
+        "&lt;/DOCTYPE>",
+        "&lt;!DOCTYPE html>",
+        "&lt;/DOCTYPE html>",
+        "&lt;!DOCTYPE html>"
+    ],
+        ["Which of the following HTML element is used for creating an unordered list?",
+        "&lt;ui>",
+        "&lt;i>",
+        "&lt;em>",
+        "&lt;ul>",
+        "&lt;ul>"
+    ]
+];
+    </script>
+    <title>HTML Quize</title> 
+</head>
+<body>
+    <h1 class="title">HTML Quize</h1>
+    <div id="container" >
+    <div class="header">
+        <div id="no"></div>
+        <div id="scorer" ></div>
+    </div>
+        <div  id="qtn" value="a" onclick="alert(this.innerHTML)"></div>
+        <div class="options"  >
+            <div id="choiceA"  onclick="validate(this.innerHTML)"></div>
+            <div id="choiceB" onclick="validate(this.innerHTML)" ></div>
+            <div id="choiceC" onclick="validate(this.innerHTML)" ></div>
+            <div id="choiceD" onclick="validate(this.innerHTML)" ></div>
+        </div>
+        <div id="message" ></div>
+    </div>
+    <div id="timer" ></div>
+    <div id="final"></div>
+<script src="script.js"></script>
+</body>
+</html>
