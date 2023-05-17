@@ -1,1 +1,70 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta http-equiv="refresh" content="1"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        const quizes = [
+        ["What is CSS?",
+        " a style sheet language",
+        " designed to separate the presentation and content, including layout, colors, and fonts",
+        "the language used to style the HTML documents",
+        " All",
+        " All"
+    ],
+        ["Which of the following CSS selector is used to specify a rule to bind a particular unique element?",
+        " tag",
+        "id",
+        "class",
+        "both class and tag",
+        "id"
+    ],
+        ["Which of the following CSS property is used to make the text bold?",
+        "text-decoration: bold",
+        "font-weight: bold",
+        "font-style: bold",
+        "text-align: bold",
+        "font-weight: bold"
+    ],
+        [" Which of the following type of HTML tag is used to define an internal style sheet?",
+        "&lt;script>",
+        "&lt;link>",
+        "&lt;style>",
+        "&lt;class>",
+        "&lt;style>"
+    ],
+        [" Which of the following type of HTML tag is used to define an external style sheet?",
+        "&lt;script>",
+        "&lt;link>",
+        "&lt;style>",
+        "&lt;class>",
+        "&lt;link>"
+    ]
+];
+    </script>
+    <title>Css Quize</title> 
+</head>
+<body>
+    <h1 class="title">CSS Quize</h1>
+    <div id="container" >
+    <div class="header">
+        <div id="no"></div>
+        <div id="scorer" ></div>
+    </div>
+        <div  id="qtn" value="a" onclick="alert(this.innerHTML)"></div>
+        <div class="options"  >
+            <div id="choiceA"  onclick="validate(this.innerHTML)"></div>
+            <div id="choiceB" onclick="validate(this.innerHTML)" ></div>
+            <div id="choiceC" onclick="validate(this.innerHTML)" ></div>
+            <div id="choiceD" onclick="validate(this.innerHTML)" ></div>
+        </div>
+        <div id="message" ></div>
+    </div>
+    <div id="timer" ></div>
+    <div id="final"></div>
+<script src="script.js"></script>
+</body>
+</html>
