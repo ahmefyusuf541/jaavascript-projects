@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="../../fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator </title>
+</head>
+<body>
+    <div class="container">
+        <h1>Choose one</h1>
+        <div class="buttons" >
+        <button class="btn" onclick="game('rock')"><i class="fa fa-hand-rock"></i>Rock </button>
+        <button class="btn" onclick="game('paper')"><i class="fa fa-hand-paper"></i>Paper </button>
+        <button class="btn" onclick="game('scissors')"><i class="fa fa-hand-scissors"></i>Scissor </button>
+        </div>
+    </div>
+    <div id="choices" style="display:none;" >
+        <div class="yourChoice">        
+            <h1>Your choice</h1><div id="yourChoice" ></div>
+        </div>
+        <div class="computerChoice">
+            <h1>Computers Coice</h1><div id="computerChoice" ></div>
+        </div>
+    </div>
+    <div id="result" ></div>
+    
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
