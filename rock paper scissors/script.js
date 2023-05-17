@@ -1,4 +1,3 @@
-
 function game(yourCoice){
     let x = Math.random()
     if(x < (1/3) ){
