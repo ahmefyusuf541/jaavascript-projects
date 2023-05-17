@@ -6,6 +6,7 @@
     border-radius:12px;
     cursor: pointer;
     }
+
     .btn:hover{
         background-color: antiquewhite;
         transform: scale(1.1);
