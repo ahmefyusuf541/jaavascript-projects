@@ -1,1 +1,63 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta http-equiv="refresh" content="1"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        const quizes = [
+        ["Why so JavaScript and Java have similar name?",
+        "JavaScript is a stripped-down version of Java",
+        "JavaScript’s syntax is loosely based on Java’s",
+        " They both originated on the island of Java",
+        "None of the above",
+        "JavaScript’s syntax is loosely based on Java’s"
+    ],
+        ["Which of the following can’t be done with client-side JavaScript?",
+        "Validating a form",
+        "Sending a form’s contents by email",
+        "Storing the form’s contents to a database file on the server",
+        "None of the above",
+        "Storing the form’s contents to a database file on the server"
+    ],
+        ["What is the correct JavaScript syntax to write “Hello World”?",
+        "System.out.println(“Hello World”)",
+        "println (“Hello World”)",
+        "document.write(“Hello World”)",
+        "response.write(“Hello World”)",
+        "document.write(“Hello World”)"
+    ],
+        ["Inside which HTML element do we put the JavaScript?",
+        "&lt;js>",
+        "&lt;scripting>",
+        "&lt;script>",
+        "&lt;javascript>",
+        "&lt;script>"
+    ]
+];
+    </script>
+    <title>Javascript Quize</title> 
+</head>
+<body>
+    <h1 class="title">Javascript Quize</h1>
+    <div id="container" >
+    <div class="header">
+        <div id="no"></div>
+        <div id="scorer" ></div>
+    </div>
+        <div  id="qtn" value="a" onclick="alert(this.innerHTML)"></div>
+        <div class="options"  >
+            <div id="choiceA"  onclick="validate(this.innerHTML)"></div>
+            <div id="choiceB" onclick="validate(this.innerHTML)" ></div>
+            <div id="choiceC" onclick="validate(this.innerHTML)" ></div>
+            <div id="choiceD" onclick="validate(this.innerHTML)" ></div>
+        </div>
+        <div id="message" ></div>
+    </div>
+    <div id="timer" ></div>
+    <div id="final"></div>
+<script src="script.js"></script>
+</body>
+</html>
