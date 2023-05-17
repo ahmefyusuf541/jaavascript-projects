@@ -26,6 +26,10 @@
     text-align:center;
     color:white;
     }
+    .option a:hover {
+    background:#5a32df;
+    color:white;
+    }
     .members  {
     display:flex;
     flex-direction:column;
