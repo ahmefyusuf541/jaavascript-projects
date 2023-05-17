@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Stopwatch</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="stopwatch">
+		<h1>Stopwatch</h1>
+		<h1 id="timer" >00:00:00:00</h1>
+		<div class="btns" >
+		<button onclick="start()" class="btn"  id="startbtn" >start</button>
+		<button onclick="stop()" class="btn" id="stopbtn" disabled="disabled" >stop</button>
+		<button onclick="reset()" class="btn" id="resetbtn" disabled="disabled" >reset</button>
+		<button onclick="lap()" class="btn"  id="lapbtn"  disabled="disabled" >lap</button>
+		</div>
+		
+		<div id="lapsec" >
+		<h1>Laps</h1>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
