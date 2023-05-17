@@ -1,1 +1,45 @@
-
+#timer {
+	padding:10px;
+	margin:auto;
+	color:#a2a;
+	border:2px solid;
+	margin:20px;
+	border-radius:25px;
+	background:skyblue;
+	}
+	.btns {
+	display:flex;
+	align-items:space-between;
+	justify-content:center;
+	border:2px purple solid;
+	border-radius:12px;
+	padding:12px;
+	}
+	.btn {
+	width:23%;
+	margin:3px;
+	padding:10px;
+	background:rgba(0,210,0,0.6);
+	color:#fff;
+	border-radius:12px;
+	font-family:sans-serif;
+	}
+	.btn:disabled {
+	background:rgba(234,0,0,0.6);
+	}
+	#lapsec {
+	padding:10px;
+	margin:10px;
+	border:2px green solid;
+	border-radius:15px;
+	}
+	#lapsec div{
+	padding:10px;
+	color:#f2f;
+	font-weight:900;
+	}
+	#lapsec h1{
+	text-align:center;
+	color:green;
+	text-decoration:underline;
+	}
